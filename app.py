@@ -1,6 +1,7 @@
 from flask import Flask
 
 # Create a Flask application instance
+# small change
 # __name__ is a special Python variable that gets the name of the current module.
 # Flask uses it to determine where to look for resources like templates and static files.
 app = Flask(__name__)
